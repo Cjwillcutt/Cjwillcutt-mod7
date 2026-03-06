@@ -1,0 +1,120 @@
+body {
+  background-color: #e7f4ff;
+}
+
+h1 {
+  text-align: center;
+}
+
+a:link {
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(129, 129, 129);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 21, 255);
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(0, 26, 255);
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+caption {
+  font-style: italic;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 66%;
+  margin: 30px auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 20px;
+  border-bottom: 10px solid #515151;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* Header row (Monday–Friday) */
+thead th {
+  background-color: #424242;
+  color: white;
+}
+
+/* Times in table */
+tbody td {
+  color: #1a6d7a;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a:link,
+ul.nav li a:visited {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.nav li a:hover {
+  background-color: #111111;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul.nav li {
+  float: left;
+}
+
+ul.nav li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+}
