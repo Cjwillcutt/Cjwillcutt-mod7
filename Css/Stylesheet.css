@@ -46,7 +46,6 @@ td {
   border-bottom: 10px solid #515151;
 }
 
-/* Alternating row colors */
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
@@ -55,19 +54,16 @@ tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }
 
-/* Hover effect */
 tbody tr:hover {
   background-color: #ddd;
   cursor: pointer;
 }
 
-/* Header row (Monday–Friday) */
 thead th {
   background-color: #424242;
   color: white;
 }
 
-/* Times in table */
 tbody td {
   color: #1a6d7a;
 }
